@@ -17,7 +17,7 @@ class CreateBarangsTable extends Migration
             $table->integer('id_barang');
             $table->string('kode_barang',20)->primary();
             $table->string('nama_barang',50)->nullable();
-            $table->string('kategori_barang',10)->nullable();
+            $table->text('kategori_barang',255)->nullable();
             $table->integer('harga')->nullable();
             $table->integer('qty')->nullable();
             $table->timestamps();

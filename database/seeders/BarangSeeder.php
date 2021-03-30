@@ -13,168 +13,166 @@ class BarangSeeder extends Seeder
      */
     public function run()
     {
-        $data = [
+        \App\Models\Barang::insert([
             [
-                'id_barang' => '0001',
-                'kode_barang' => 'A001',
+                'id_barang' => '1',
+                'kode_barang' => 'PRD001',
                 'nama_barang' => 'Indomie' ,
-                'kategori' => 'Makanan',
+                'kategori_barang' => 'Makanan',
                 'harga' => '3500',
-                'jumlah' => '2500'
+                'qty' => '250'
             ],
             [
-                'id_barang' => '0002',
-                'kode_barang' => 'A002',
+                'id_barang' => '2',
+                'kode_barang' => 'PRD002',
                 'nama_barang' => 'Mie Sedap' ,
-                'kategori' => 'Makanan',
+                'kategori_barang' => 'Makanan',
                 'harga' => '3000',
-                'jumlah' => '3500'
+                'qty' => '350'
             ],
             [
-                'id_barang' => '0003',
-                'kode_barang' => 'A003',
+                'id_barang' => '3',
+                'kode_barang' => 'PRD003',
                 'nama_barang' => 'Le Mineral' ,
-                'kategori' => 'Minuman',
+                'kategori_barang' => 'Minuman',
                 'harga' => '6000',
-                'jumlah' => '500'
+                'qty' => '500'
             ],
             [
-                'id_barang' => '0004',
-                'kode_barang' => 'A004',
+                'id_barang' => '4',
+                'kode_barang' => 'PRD004',
                 'nama_barang' => 'Aqua' ,
-                'kategori' => 'Minuman',
+                'kategori_barang' => 'Minuman',
                 'harga' => '4000',
-                'jumlah' => '5000'
+                'qty' => '500'
             ],
             [
-                'id_barang' => '0005',
-                'kode_barang' => 'A005',
+                'id_barang' => '5',
+                'kode_barang' => 'PRD005',
                 'nama_barang' => 'Susu Dancow' ,
-                'kategori' => 'Minuman',
+                'kategori_barang' => 'Minuman',
                 'harga' => '20000',
-                'jumlah' => '2250'
+                'qty' => '225'
             ],
             [
-                'id_barang' => '0006',
-                'kode_barang' => 'A006',
+                'id_barang' => '6',
+                'kode_barang' => 'PRD006',
                 'nama_barang' => 'Fiesta Chicken Nugget' ,
-                'kategori' => 'Frozen Food',
-                'harga' => '45500',
-                'jumlah' => '155'
+                'kategori_barang' => 'Frozen Food',
+                'harga' => '45000',
+                'qty' => '155'
             ],
             [
-                'id_barang' => '0007',
-                'kode_barang' => 'A007',
+                'id_barang' => '7',
+                'kode_barang' => 'PRD007',
                 'nama_barang' => 'So Good Wings' ,
-                'kategori' => 'Frozen Food',
+                'kategori_barang' => 'Frozen Food',
                 'harga' => '60000',
-                'jumlah' => '500'
+                'qty' => '500'
             ],
             [
-                'id_barang' => '0008',
-                'kode_barang' => 'A008',
+                'id_barang' => '8',
+                'kode_barang' => 'PRD008',
                 'nama_barang' => 'Lays' ,
-                'kategori' => 'Snack',
+                'kategori_barang' => 'Snack',
                 'harga' => '12000',
-                'jumlah' => '500'
+                'qty' => '500'
             ],
             [
-                'id_barang' => '0009',
-                'kode_barang' => 'A009',
+                'id_barang' => '9',
+                'kode_barang' => 'PRD009',
                 'nama_barang' => 'Pota Bee' ,
-                'kategori' => 'Snack',
+                'kategori_barang' => 'Snack',
                 'harga' => '7500',
-                'jumlah' => '500'
+                'qty' => '500'
             ],
             [
-                'id_barang' => '0010',
-                'kode_barang' => 'A010',
+                'id_barang' => '10',
+                'kode_barang' => 'PRD010',
                 'nama_barang' => 'Qtela' ,
-                'kategori' => 'Snack',
+                'kategori_barang' => 'Snack',
                 'harga' => '15000',
-                'jumlah' => '500'
+                'qty' => '500'
             ],
-            [   'id_barang' => '0011',
-                'kode_barang' => 'A011',
+            [   'id_barang' => '11',
+                'kode_barang' => 'PRD011',
                 'nama_barang' => 'Good Days' ,
-                'kategori' => 'Minuman',
+                'kategori_barang' => 'Minuman',
                 'harga' => '21000',
-                'jumlah' => '130'
+                'qty' => '130'
             ],
             [
-                'id_barang' => '0012',
-                'kode_barang' => 'A012',
+                'id_barang' => '12',
+                'kode_barang' => 'PRD012',
                 'nama_barang' => 'Samyang Spicy' ,
-                'kategori' => 'Makanan',
+                'kategori_barang' => 'Makanan',
                 'harga' => '18500',
-                'jumlah' => '500'
+                'qty' => '500'
             ],
             [
-                'id_barang' => '0013',
-                'kode_barang' => 'A013',
+                'id_barang' => '13',
+                'kode_barang' => 'PRD013',
                 'nama_barang' => 'Sup Jamur Instan' ,
-                'kategori' => 'Makanan',
+                'kategori_barang' => 'Makanan',
                 'harga' => '9500',
-                'jumlah' => '500'
+                'qty' => '500'
             ],
             [
-                'id_barang' => '0014',
-                'kode_barang' => 'A014',
+                'id_barang' => '14',
+                'kode_barang' => 'PRD014',
                 'nama_barang' => 'Mogu Mogu' ,
-                'kategori' => 'Minuman',
+                'kategori_barang' => 'Minuman',
                 'harga' => '15000',
-                'jumlah' => '500'
+                'qty' => '500'
             ],
             [
-                'id_barang' => '0015',
-                'kode_barang' => 'A015',
+                'id_barang' => '15',
+                'kode_barang' => 'PRD015',
                 'nama_barang' => 'Teh Pucuk' ,
-                'kategori' => 'Minuman',
+                'kategori_barang' => 'Minuman',
                 'harga' => '7500',
-                'jumlah' => '500'
+                'qty' => '500'
             ],
             [
-                'id_barang' => '0016',
-                'kode_barang' => 'A016',
+                'id_barang' => '16',
+                'kode_barang' => 'PRD016',
                 'nama_barang' => 'Nutrijell' ,
-                'kategori' => 'Snack',
+                'kategori_barang' => 'Snack',
                 'harga' => '3800',
-                'jumlah' => '500'
+                'qty' => '500'
             ],
             [
-                'id_barang' => '0017',
-                'kode_barang' => 'A017',
+                'id_barang' => '17',
+                'kode_barang' => 'PRD017',
                 'nama_barang' => 'Super Bubur' ,
-                'kategori' => 'Makanan',
+                'kategori_barang' => 'Makanan',
                 'harga' => '18500',
-                'jumlah' => '500'
+                'qty' => '500'
             ],
             [
-                'id_barang' => '0018',
-                'kode_barang' => 'A018',
+                'id_barang' => '18',
+                'kode_barang' => 'PRD018',
                 'nama_barang' => 'Gekikara Ramen' ,
-                'kategori' => 'Makanan',
+                'kategori_barang' => 'Makanan',
                 'harga' => '10500',
-                'jumlah' => '2500'
+                'qty' => '250'
             ],
             [
-                'id_barang' => '0019',
-                'kode_barang' => 'A019',
+                'id_barang' => '19',
+                'kode_barang' => 'PRD019',
                 'nama_barang' => 'Shin Ramyun' ,
-                'kategori' => 'Makanan',
+                'kategori_barang' => 'Makanan',
                 'harga' => '12300',
-                'jumlah' => '1500'
+                'qty' => '150'
             ],
             [
-                'id_barang' => '0020',
-                'kode_barang' => 'A020',
+                'id_barang' => '20',
+                'kode_barang' => 'PRD020',
                 'nama_barang' => 'Lemonilo' ,
-                'kategori' => 'Makanan',
+                'kategori_barang' => 'Makanan',
                 'harga' => '8500',
-                'jumlah' => '5000'
+                'qty' => '50'
             ]
-        ];
-
-        DB::table('barang')->insert($data);
+        ]);
   }
 }
