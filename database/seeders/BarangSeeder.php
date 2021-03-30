@@ -13,7 +13,7 @@ class BarangSeeder extends Seeder
      */
     public function run()
     {
-        \App\Models\Barang::insert([
+        $data = [
             [
                 'id_barang' => '1',
                 'kode_barang' => 'PRD001',
@@ -173,6 +173,7 @@ class BarangSeeder extends Seeder
                 'harga' => '8500',
                 'qty' => '50'
             ]
-        ]);
+        ];
+        DB::table('barang')->insert($data);
   }
 }
